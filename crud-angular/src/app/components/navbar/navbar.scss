@@ -1,7 +1,10 @@
 .mat-toolbar {
-  background-color: rgb(39, 92, 130) !important;
-  color: white;
+  background-color: var(--mat-sys-primary);
+  color: var(--mat-sys-on-primary);
 }
 .example-spacer {
   flex: 1 1 auto;
+}
+span {
+  font-weight: bold;
 }
