@@ -2,8 +2,10 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-courses',
-  imports: [],
+  standalone: false,
   templateUrl: './courses.html',
   styleUrl: './courses.scss',
 })
-export class Courses {}
+export class Courses {
+  courses: any[] = [];
+}
