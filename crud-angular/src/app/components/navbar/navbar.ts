@@ -1,10 +1,9 @@
 import { Component } from '@angular/core';
-import { MatToolbarModule } from '@angular/material/toolbar';
-import { MatIconModule } from '@angular/material/icon';
-import { MatButtonModule } from '@angular/material/button';
+import { AppMaterialModule } from '../../shared/app-material/app-material-module';
+
 @Component({
   selector: 'app-navbar',
-  imports: [MatToolbarModule, MatButtonModule, MatIconModule],
+  imports: [AppMaterialModule],
   templateUrl: './navbar.html',
   styleUrl: './navbar.scss',
 })
