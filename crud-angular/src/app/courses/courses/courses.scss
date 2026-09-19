@@ -10,3 +10,13 @@ span {
   font-weight: bold;
   font-size: 15px;
 }
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: rgb(245, 236, 236);
+  //assim centraliza os items que estão dentro de uma div no centro
+  padding: 30px;
+}

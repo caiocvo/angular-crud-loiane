@@ -10,10 +10,10 @@ import { Observable } from 'rxjs';
   styleUrl: './courses.scss',
 })
 export class Courses {
-  courses: Observable<Course[]>;
+  courses$: Observable<Course[]>;
   displayedColumns = ['name', 'category'];
 
   constructor(private coursesService: CoursesService) {
-    this.courses = this.coursesService.findAll();
+    this.courses$ = this.coursesService.findAll();
   }
 }
